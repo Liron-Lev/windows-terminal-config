@@ -1,3 +1,3 @@
 # windows-terminal-config
 
-Run `install.ps1` as an admin :)
+Run `install.ps1`

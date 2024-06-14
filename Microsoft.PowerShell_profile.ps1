@@ -1,10 +1,9 @@
+oh-my-posh.exe init pwsh --config "$env:POSH_THEMES_PATH/paradox.omp.json" | Invoke-Expression
+
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
-Set-PSReadlineOption -PredictionSource History
 Set-PSReadLineOption -HistorySearchCursorMovesToEnd
-Set-PSReadLineOption -Colors @{Prediction="`e[90m"}
-Set-Theme Paradox
 
 function cdg {
     Push-Location E:\git

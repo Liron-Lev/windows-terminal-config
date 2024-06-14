@@ -42,7 +42,7 @@
         "list": 
         [
             {
-                "backgroundImage": "images/sea1.jpg",
+                "backgroundImage": "%USERPROFILE%/terminal_images/sea1.jpg",
                 "backgroundImageOpacity": 0.25,
                 "font": 
                 {
@@ -56,7 +56,7 @@
                 "useAcrylic": true
             },
             {
-                "backgroundImage": "images/powershell.jpeg",
+                "backgroundImage": "%USERPROFILE%/terminal_images/powershell.jpeg",
                 "backgroundImageOpacity": 0.5,
                 "colorScheme": "PowerShellTom",
                 "font": 
@@ -87,7 +87,7 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "backgroundImage": "images/bash.jpeg",
+                "backgroundImage": "%USERPROFILE%/terminal_images/bash.jpeg",
                 "backgroundImageOpacity": 0.35,
                 "colorScheme": "Dracula",
                 "commandline": "%PROGRAMFILES%/Git/bin/bash.exe --login -i -l",

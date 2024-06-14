@@ -10,4 +10,4 @@ New-Item "$env:HOMEPATH\Documents\PowerShell\" -ItemType Directory -ea 0
 Copy-Item ./Microsoft.PowerShell_profile.ps1 "$env:HOMEPATH\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
 
 Copy-Item "settings.json" $env:LocalAppData\Packages\Microsoft.WindowsTerminal_*\LocalState\settings.json
-Copy-Item "images" $env:LocalAppData\Packages\Microsoft.WindowsTerminal_*\LocalState\
+Copy-Item "images" $env:UserProfile\terminal_images -Recurse
